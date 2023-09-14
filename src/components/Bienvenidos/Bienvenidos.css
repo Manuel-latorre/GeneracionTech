@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+
+.logoBienvenidos{
+    width: 500px;
+}
+.sectionBienvenidos{
+    margin-left: 30px;
+}
+
+
+.textGen{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.textBienv{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
