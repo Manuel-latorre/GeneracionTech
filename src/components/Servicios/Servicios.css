@@ -48,3 +48,9 @@
 .iconNegro{
     filter: invert();
 }
+
+@media(max-width:950px){
+    .services{
+        display: none;
+    }
+}

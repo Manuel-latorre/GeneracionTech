@@ -10,7 +10,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div style={{backgroundColor:'#393939', bottom:0}}>
-        <div style={{display:'flex', alignItems:'center', marginLeft: 40}}>
+        <div className='secLogoFooter' style={{display:'flex', alignItems:'center', marginLeft: 40}}>
             <img className='logo' src={logo} alt='logo' style={{marginTop:40}}/>
             <div style={{display:'flex', flexDirection:'column', marginLeft:15, marginTop:40}}>
                 <p style={{fontSize:26}}>Generación</p>
@@ -19,15 +19,15 @@ const Footer = () => {
         </div>
 
         <div className='sectionSocialMedia'>
-            <LinkedInIcon sx={{fontSize:40}}/> 
-                {/* <hr className='hrFooter' /> */}
+            <LinkedInIcon className='iconFooter' sx={{fontSize:40}}/> 
+                
                 <img className='line' src={line} alt="" />
-            <TwitterIcon sx={{fontSize:40}}/>
+            <TwitterIcon className='iconFooter' sx={{fontSize:40}}/>
 
-            {/* <hr className='hrFooter' /> */}
+            
             <img className='line' src={line} alt="" />
 
-             <InstagramIcon sx={{fontSize:40}}/>
+             <InstagramIcon className='iconFooter' sx={{fontSize:40}}/>
              
         </div>
 

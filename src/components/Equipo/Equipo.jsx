@@ -18,16 +18,18 @@ export default function Equipo() {
     
   return (
     <>
-    <div style={{marginTop:200}}>
+    <div style={{marginTop:200}} id='equipo'>
     <div>
     <p style={{fontSize: 30, fontWeight: '400', textAlign:'center', marginBottom: 80, marginTop: 30}}>CONOCE NUESTRO EQUIPO</p>
     </div>
     
       <Swiper
-        
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
+        slideActiveClass='activeSlide'
+        slideNextClass='nextClass'
+        slidePrevClass='prevClass'
         autoplay={{
             delay: 2000,
             disableOnInteraction: false,
@@ -47,7 +49,6 @@ export default function Equipo() {
             
        
         <div className='cardContainer'>
-            <span></span>
                 <div className="divImagen">
                     <img src={avatar3} alt="" className="cardImagen" />
                 </div>
@@ -131,7 +132,6 @@ export default function Equipo() {
                 </div>          
             </div>
         </SwiperSlide>
-        
       </Swiper>
       </div>
     </>

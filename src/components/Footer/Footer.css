@@ -28,3 +28,21 @@
     filter: invert();
     margin: 50px;
 }
+
+
+@media(max-width:528px){
+    .sectionSocialMedia{
+        flex-direction: column;
+    }
+    .line{
+        display: none;
+    }
+    
+    .iconFooter{
+        margin-top: 15px;
+    }
+
+    .secLogoFooter{
+        justify-content: center;
+    }
+}
